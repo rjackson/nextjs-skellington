@@ -14,6 +14,11 @@ This is my personal Next.js project skeleton. It is a fresh install of Next.js, 
   - Next's stricter core-web-vitals ruleset
   - Prettier code formatting rules
   - jsx-a11y's strict ruleset
+- Next.js preconfigured with
+  - React strict mode enabled
+  - Locale pre-set to en-GB
+  - Linting on all code directories
+  - Webpack config set up to support [symlinking local packages](https://docs.npmjs.com/cli/v8/commands/npm-link)
 
 ## Getting Started
 
