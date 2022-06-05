@@ -19,6 +19,8 @@ This is my personal Next.js project skeleton. It is a fresh install of Next.js, 
   - Locale pre-set to en-GB
   - Linting on all code directories
   - Webpack config set up to support [symlinking local packages](https://docs.npmjs.com/cli/v8/commands/npm-link)
+- Tailwind CSS preconfigured with
+  - Class-based dark mode
 
 ## Getting Started
 
