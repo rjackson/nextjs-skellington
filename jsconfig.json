@@ -1,16 +1,22 @@
 {
     "compilerOptions": {
-        "baseUrl": "./",
+        "baseUrl": "./src/",
         "paths": {
             "@components/*": [
                 "components/*"
             ],
+            "@contexts/*": [
+                "contexts/*"
+            ],
+            "@helpers/*": [
+                "helpers/*"
+            ],
+            "@hooks/*": [
+                "hooks/*"
+            ],
             "@public/*": [
                 "public/*"
-            ],
-            "@styles/*": [
-                "styles/*"
-            ],
+            ]
         }
     },
     "exclude": [
