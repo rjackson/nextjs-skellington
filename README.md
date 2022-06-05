@@ -22,6 +22,7 @@ This is my personal Next.js project skeleton. It is a fresh install of Next.js, 
 - Tailwind CSS preconfigured with
   - Class-based dark mode
 - [rjackson/rjds](https://github.com/rjackson/rjds) – my personal design system
+- Pre-commit linting
 
 ## Getting Started
 
