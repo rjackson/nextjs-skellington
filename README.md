@@ -23,6 +23,8 @@ This is my personal Next.js project skeleton. It is a fresh install of Next.js, 
   - Class-based dark mode
 - [rjackson/rjds](https://github.com/rjackson/rjds) – my personal design system
 - Pre-commit linting
+- [Fathon Analytics](https://usefathom.com/ref/ANPSSZ) (referral URL)
+  - Requires `NEXT_PUBLIC_FATHOM_CUSTOM_DOMAIN` and `NEXT_PUBLIC_FATHOM_TRACKING_CODE` environmental variables to be set
 
 ## Getting Started
 

@@ -2,9 +2,12 @@ import "tailwindcss/tailwind.css";
 import Head from "next/head";
 import { Anchor, Header, Panel, Section, SingleColumnLayout, usePrefersDark } from "@rjackson/rjds";
 import Link from "next/link";
+import useFathom from "@hooks/useFathom";
 
 function MyApp({ Component, pageProps }) {
   const prefersDark = usePrefersDark();
+
+  useFathom();
 
   return (
     <SingleColumnLayout
