@@ -1,23 +1,10 @@
-import Head from "next/head";
+import { H2, Section } from "@rjackson/rjds";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Spooky skellington</title>
-        <meta name="description" content="ooOOoooOOoooOooo" />
-      </Head>
-
-      <main>
-        <h1>
-          <span role="img" aria-label="Skull">
-            💀
-          </span>
-        </h1>
-        <p>oooooooOOoooOOOoo</p>
-      </main>
-
-      <footer></footer>
-    </div>
+    <Section as="main" className="space-y-4">
+      <H2 className="before:content-['💀'] after:content-['💀']">Spoopy skellingtons ahoy</H2>
+      <p>oooooooOOoooOOOoo</p>
+    </Section>
   );
 }

@@ -21,6 +21,7 @@ This is my personal Next.js project skeleton. It is a fresh install of Next.js, 
   - Webpack config set up to support [symlinking local packages](https://docs.npmjs.com/cli/v8/commands/npm-link)
 - Tailwind CSS preconfigured with
   - Class-based dark mode
+- [rjackson/rjds](https://github.com/rjackson/rjds) – my personal design system
 
 ## Getting Started
 
